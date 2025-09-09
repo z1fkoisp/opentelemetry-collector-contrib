@@ -14,8 +14,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/mqttexporter/internal/publisher"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/mqtt"
+	"github.com/asierzd/opentelemetry-collector-contrib/exporter/mqttexporter/internal/publisher"
+	"github.com/asierzd/opentelemetry-collector-contrib/internal/mqtt"
 )
 
 type mqttExporter struct {

@@ -17,8 +17,8 @@ import (
 	"go.opentelemetry.io/collector/component/componenttest"
 	"go.opentelemetry.io/collector/exporter/exportertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/mqttexporter/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/testdata"
+	"github.com/asierzd/opentelemetry-collector-contrib/exporter/mqttexporter/internal/metadata"
+	"github.com/asierzd/opentelemetry-collector-contrib/internal/coreinternal/testdata"
 )
 
 func TestIntegration(t *testing.T) {

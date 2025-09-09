@@ -8,7 +8,7 @@ import (
 
 var (
 	Type      = component.MustNewType("mqtt")
-	ScopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/mqttexporter"
+	ScopeName = "github.com/asierzd/opentelemetry-collector-contrib/exporter/mqttexporter"
 )
 
 const (

@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/mqtt"
+	"github.com/asierzd/opentelemetry-collector-contrib/internal/mqtt"
 )
 
 func TestNewConnection(t *testing.T) {

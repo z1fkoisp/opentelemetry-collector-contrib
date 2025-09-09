@@ -14,9 +14,9 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/mqttexporter/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/mqttexporter/internal/publisher"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/mqtt"
+	"github.com/asierzd/opentelemetry-collector-contrib/exporter/mqttexporter/internal/metadata"
+	"github.com/asierzd/opentelemetry-collector-contrib/exporter/mqttexporter/internal/publisher"
+	"github.com/asierzd/opentelemetry-collector-contrib/internal/mqtt"
 )
 
 const (

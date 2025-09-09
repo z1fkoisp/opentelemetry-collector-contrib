@@ -3,8 +3,8 @@ module github.com/asierzd/opentelemetry-collector-contrib/exporter/mqttexporter
 go 1.24
 
 require (
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.133.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/mqtt v0.0.0-00010101000000-000000000000
+	github.com/asierzd/opentelemetry-collector-contrib/internal/coreinternal v0.133.0
+	github.com/asierzd/opentelemetry-collector-contrib/internal/mqtt v0.0.0-00010101000000-000000000000
 	github.com/stretchr/testify v1.10.0
 	github.com/testcontainers/testcontainers-go v0.38.0
 	go.opentelemetry.io/collector/component v1.39.0
@@ -121,12 +121,12 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
+replace github.com/asierzd/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/mqtt => ../../internal/mqtt
+replace github.com/asierzd/opentelemetry-collector-contrib/internal/mqtt => ../../internal/mqtt
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
+replace github.com/asierzd/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
+replace github.com/asierzd/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden
+replace github.com/asierzd/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden

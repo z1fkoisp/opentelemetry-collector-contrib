@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/mqttexporter
+module github.com/asierzd/opentelemetry-collector-contrib/exporter/mqttexporter
 
 go 1.24
 

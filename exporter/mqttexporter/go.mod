@@ -3,8 +3,8 @@ module github.com/asierzd/opentelemetry-collector-contrib/exporter/mqttexporter
 go 1.24
 
 require (
-	github.com/asierzd/opentelemetry-collector-contrib/internal/coreinternal main
-	github.com/asierzd/opentelemetry-collector-contrib/internal/mqtt main
+	github.com/asierzd/opentelemetry-collector-contrib/internal/coreinternal v0.134.0
+	github.com/asierzd/opentelemetry-collector-contrib/internal/mqtt v0.134.0
 	github.com/stretchr/testify v1.10.0
 	github.com/testcontainers/testcontainers-go v0.38.0
 	go.opentelemetry.io/collector/component v1.39.0

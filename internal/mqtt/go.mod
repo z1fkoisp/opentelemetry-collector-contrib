@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/internal/mqtt
+module github.com/asierzd/opentelemetry-collector-contrib/internal/mqtt
 
 go 1.21
 

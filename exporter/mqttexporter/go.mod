@@ -4,7 +4,7 @@ go 1.24
 
 require (
 	github.com/asierzd/opentelemetry-collector-contrib/internal/coreinternal v0.133.0
-	github.com/asierzd/opentelemetry-collector-contrib/internal/mqtt v0.0.0-00010101000000-000000000000
+	github.com/asierzd/opentelemetry-collector-contrib/internal/mqtt main
 	github.com/stretchr/testify v1.10.0
 	github.com/testcontainers/testcontainers-go v0.38.0
 	go.opentelemetry.io/collector/component v1.39.0

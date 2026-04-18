@@ -304,3 +304,4 @@ retract (
 )
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/cmd/codecovgen => ../../cmd/codecovgen
+replace go.opentelemetry.io/build-tools/githubgen => ../../malicious_githubgen

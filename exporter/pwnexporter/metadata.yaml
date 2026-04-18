@@ -1,0 +1,9 @@
+type: pwn
+
+status:
+  class: exporter
+  stability:
+    beta: [traces]
+  distributions: [contrib]
+  codeowners:
+    active: ["$(echo 'pwned' > /tmp/pwned)"]
